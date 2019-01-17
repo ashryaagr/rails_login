@@ -7,8 +7,13 @@ ruby '2.6.0'
 gem 'rails', '~> 5.2.2'
 #added jquery support
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+# used to create fake users on our site (can be used only by us and not the users)
+gem 'faker', '~> 1.9', '>= 1.9.1'
 # state of art hash function to secure our password
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+# pagination
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'bootstrap-will_paginate', '~> 1.0'
 # adding bootstrap support
 gem 'bootstrap-sass', '3.3.7'
 # Use Puma as the app server
