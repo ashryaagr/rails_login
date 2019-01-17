@@ -47,7 +47,7 @@ gem 'bulma-rails', '~> 0.7.2'
 
 # Simple form
 gem 'simple_form', '~> 4.1'
-
+gem 'adorable_avatars'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false

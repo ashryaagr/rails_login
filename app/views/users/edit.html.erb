@@ -11,9 +11,6 @@
   <%= f.input :password_confirmation %>
   <%= f.button :submit %>
 <% end %>
-    <div class="gravatar_edit">
-      <%= gravatar_for @user %>
-      <a href="http://gravatar.com/emails" target="_blank">change</a>
-    </div>
+  <%= adorable_avatar user.email, size: 50 %>
   </div>
 </div>
