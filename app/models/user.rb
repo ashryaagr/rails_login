@@ -1,4 +1,6 @@
 class User < ApplicationRecord
+  acts_as_authentic
+  PasswordMailer.from_user = 'ashrya'
   attr_accessor :remember_token
   before_save {self.email = self.email.downcase}
   validates :name,  presence: true, length: { maximum: 50 }

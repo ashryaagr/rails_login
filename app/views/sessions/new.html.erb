@@ -6,3 +6,6 @@
     <%=f.input :remember_me, as: :boolean, label: 'Remember me on this computer', wrapper_html: { class: 'options' }%>
     <%= f.button :submit , 'login'%>
 <% end %>
+<br>
+New User? <%= link_to 'Sign up now!', new_user_path %><br>
+Don't remember the password?<%= link_to "(forgot password)", new_password_path %>
