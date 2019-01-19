@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 # can add  :index to only: [], in the next line if I want to allow any random user to see the list of users
-  before_action :logged_in_user, only: [:edit, :update, :delete]
+  before_action :logged_in_user, only: [:index, :edit, :update, :destroy]
   before_action :correct_user, only: [:edit, :update]
   before_action :admin_user,     only: :destroy
   def index
