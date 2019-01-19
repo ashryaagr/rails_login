@@ -12,7 +12,7 @@ config.action_mailer.default_url_options = { :host => 'localhost:3000' }
     port:                 587,
     domain:               'localhost:3000',
     user_name:            'ashryaagrdeveloper@gmail.com',
-    password:             '$abcde12345',
+    password:             '#',
     authentication:       'plain',
     enable_starttls_auto: true }
   # Do not eager load code on boot.

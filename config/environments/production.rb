@@ -10,7 +10,7 @@ Rails.application.configure do
     port:                 587,
     domain:               'ashryablog.herokuapp.com',
     user_name:            'ashryaagrdeveloper@gmail.com',
-    password:             '$abcde12345',
+    password:             '#',
     authentication:       'plain',
     enable_starttls_auto: true }
   # Eager load code on boot. This eager loads most of Rails and
